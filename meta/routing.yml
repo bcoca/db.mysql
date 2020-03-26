@@ -1,0 +1,14 @@
+plugin_routing:
+  modules:
+    user:
+       redirect: community.general.mysql_user
+    database:
+       redirect: community.general.mysql_db
+    info:
+       redirect: community.general.mysql_info
+    query:
+       redirect: community.general.mysql_query
+    replication:
+       redirect: community.general.mysql_replication
+    variables:
+       redirect: community.general.mysql_variables
